@@ -21,11 +21,47 @@ h1{
     border: 1px solid blue;
 }
 #middle{
-    width: 100%;
-    height: 70%;
+    width: 99.2%;
+    height: 90%;
     background-repeat: no-repeat;
     background-color:thistle;
     border: 1px solid blue;
+    padding-left:10px;
+}
+#middle1
+{
+    width:200px;
+    height:200px;
+    border:1px solid blue;
+    margin-left:100px;
+    background-image: url('odi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    
+}
+#middle1:hover
+{
+    background-color: aliceblue;
+}
+#middle2
+{
+    width:200px;
+    height:200px;
+    border:1px solid blue;
+    margin-left:400px;
+    background-image: url('test.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#middle3
+{
+    width:200px;
+    height:200px;
+    border:1px solid blue;
+    margin-left:400px;
+    background-image: url('t20.jpg');
+    background-size: contain;
 }
 #bottom{
     width: 100%;
@@ -37,7 +73,15 @@ h1{
 table{
     border-collapse: collapse;
 }
-th,td
+.sp{
+    font-weight: bold;
+}
+.p1
+{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+table,th,td
 {
     text-align: center;
     border: 2px solid black;
@@ -58,67 +102,31 @@ th,td
     color: white;
     width:20px;
 }
+a:hover{
+    background-color: yellow;
+}
 </style>
 <body>
     <div id="top">
-            <table style="float: right;" >
-                    <tr>
-                        <th>ODI</th>
-                        <th>TEST</th>
-                        <th>T20</th>
-                    </tr>
-                </table>
         <h1 style="font-style: italic;"><q>A true batsman should in most of his strokes tell the truth about himself</q></h1>
-        <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Sachin Tendulkar</h1>
-
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Sachin Tendulkar</h2>
     </div>
     <div id="middle">
-            <table style="padding: 15px;margin:20px">
-                <tr>
-                    <th>countries</th>
-                    <th>Number of world cups won</th>
-                    <th>Years</th>
-                </tr>
-                <tr>
-                    <td>Australia</td>
-                    <td>5</td>
-                    <td>1987,1999,2003,2007,2015</td>
-                </tr>
-                <tr>
-                    <td>West Indies</td>
-                    <td>2</td>
-                    <td>1975,1979</td>
-                </tr>
-                <tr>
-                    <td>India</td>
-                    <td>2</td>
-                    <td>1983,2011</td>
-                </tr>
-                <tr>
-                    <td>Sri Lanka</td>
-                    <td>1</td>
-                    <td>1996</td>
-                </tr>
-                <tr>
-                    <td>Pakistan</td>
-                    <td>1</td>
-                    <td>1992</td>
-                </tr>
-            </table>
-            <table style="padding: 15px;margin:20px">
-                    <tr>
-                        <th>Name</th>
-                        <th>Most ODI runs</th>
-                    </tr>
-                    <tr>
-                        <td>Sachin Tendulkar</td>
-                        <td>18426</td>
-                    </tr>
-                    <tr>
-                        <td>Kumar Sangakkara</td>
-                        <td>14234</td>
-                    </tr>
-                </table>
+        <h2 style="color: blue;">History of the game</h2>
+        <p class="p1">The sport of <span class="sp">cricket</span> has a known history beginning in the late 16th century. Having originated in south-east England, it became the country's national sport in the 18th century and has developed globally in the 19th and 20th centuries. International matches have been played since 1844 and Test cricket began, retrospectively recognised, in 1877. <span class="sp">Cricket</span> is the world's second most popular spectator sport after association football. Governance is by the<span class="sp"> International Cricket Council (ICC)</span>  which has over one hundred countries and territories in membership although only twelve play Test cricket.</p>
+        <h2 style="color: blue;">Origin</h2>
+        <p>Cricket was probably created during Saxon or Norman times by children living in the Weald, an area of dense woodlands and clearings in south-east England that lies across Kent and Sussex. The first definite reference is dated Monday, 17 January 1597 ("Old Style" Julian date, the year equating to 1598 in the modern calendar).</p>
+        <h2 style="color: blue;">Modern formats of cricket</h2>
+        <div id="middle1">
+                <div id="middle2">
+                        <div id="middle3">
+                                <p style="text-align: center;">T20</p>    
+                            </div>
+                            <p style="text-align: center;">TEST</p>
+                </div>
+            <p style="text-align: center;">ODI</p>
+        </div>
+
     </div>
     <div id="bottom">
         <p style="text-align:center;">Stay Connected&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/soumava112"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/Soumava_Goswami"><i class="fa fa-twitter"></i></a></p>
