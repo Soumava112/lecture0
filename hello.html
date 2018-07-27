@@ -14,7 +14,7 @@ h1{
 #top{
     width: 100%;
     height: 25%;
-    background-image: url('cric.jpg') ;
+    background-image: url('cric.jpg');
     background-repeat: no-repeat;
     background-position: right;
     background-size: 100%;
@@ -30,38 +30,60 @@ h1{
 }
 #middle1
 {
+    border-radius: 40px; 
+    position: relative;
     width:200px;
     height:200px;
     border:1px solid blue;
-    margin-left:100px;
+    margin-left:170px;
     background-image: url('odi.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right center;
-    
+    float:left;
+    cursor: pointer;
 }
 #middle1:hover
 {
-    background-color: aliceblue;
+    opacity: 0.6;
 }
 #middle2
 {
+    border-radius: 40px; 
+    position: relative;
     width:200px;
     height:200px;
     border:1px solid blue;
-    margin-left:400px;
-    background-image: url('test.jpg');
+    margin-left:170px;
+    background-image: url('t20.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: right center;
+    float:left;
+    cursor: pointer;
+}
+#middle2:hover
+{
+    opacity: 0.6;
 }
 #middle3
 {
+    border-radius: 40px; 
+    position: relative;
     width:200px;
     height:200px;
     border:1px solid blue;
-    margin-left:400px;
-    background-image: url('t20.jpg');
-    background-size: contain;
+    margin-left:170px;
+    background-image: url('test.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    float:left;
+    cursor: pointer;
+}
+#middle3:hover
+{
+    opacity: 0.6;
 }
 #bottom{
     width: 100%;
@@ -117,16 +139,21 @@ a:hover{
         <h2 style="color: blue;">Origin</h2>
         <p>Cricket was probably created during Saxon or Norman times by children living in the Weald, an area of dense woodlands and clearings in south-east England that lies across Kent and Sussex. The first definite reference is dated Monday, 17 January 1597 ("Old Style" Julian date, the year equating to 1598 in the modern calendar).</p>
         <h2 style="color: blue;">Modern formats of cricket</h2>
-        <div id="middle1">
+        <a href="odi.html">
+            <div id="middle1">
+              <p style="text-align: center;padding-top: 200px;">ODI</p>
+            </div>
+        </a>
+        <a href="test.html">
                 <div id="middle2">
-                        <div id="middle3">
-                                <p style="text-align: center;">T20</p>    
-                            </div>
-                            <p style="text-align: center;">TEST</p>
+                  <p style="text-align: center;padding-top: 200px;">Test</p>
                 </div>
-            <p style="text-align: center;">ODI</p>
-        </div>
-
+            </a>
+        <a href="t20.html">
+            <div id="middle3">
+                <p style="text-align: center;padding-top: 200px;">T20</p>  
+            </div>
+        </a>
     </div>
     <div id="bottom">
         <p style="text-align:center;">Stay Connected&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/soumava112"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/Soumava_Goswami"><i class="fa fa-twitter"></i></a></p>
